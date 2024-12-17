@@ -1,0 +1,203 @@
+.sta{
+    background-color: #d4d0d0;
+    overflow-x: hidden; 
+
+}
+
+.cont{
+    
+    padding: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.itemsss{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.section-item img {
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.order{
+    color: blue;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+   
+    
+    
+}
+.imgicon{
+    height: 60px;
+    margin-bottom: 30px;
+    
+}
+.startt{
+    display: flex;
+    width: 80%;
+    margin:20px auto;
+    padding: 0 20px;
+   
+
+}
+
+.indiaup{
+    background-color: #87ab5f;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 1300px;
+    padding: 20px;
+    height: 500px;
+    font-size: 18px;
+     
+    
+}
+
+.mainsec{
+    text-align:center ;
+    font-size: 24px;
+}
+
+.secitems{
+    text-align: center;
+    margin: 20px;
+    
+}
+.org{
+    background-color: rgb(236, 87, 33);
+    
+    
+
+}
+.insi{
+    width: 60%;
+    margin:20px auto;
+    padding: 0 20px;
+    justify-content: space-between;
+    margin-top: 80px;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.insi a{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(73, 103, 172);
+    color: white;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.doee{
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    font-size: 22px;
+    
+}
+.down{
+    margin-top: -40px;
+}
+
+.copy{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.homeimg {
+    display: flex; 
+    width: 400%; 
+    height: 60vh; 
+    transition: transform 1s ease-in-out;
+    overflow: hidden; 
+}
+
+.samesi {
+    flex: 0 0 100vw; 
+    height: 100%; 
+    object-fit: contain; 
+}
+
+@media only screen and (max-width: 768px) {
+    .cont {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+    .itemsss {
+        gap: 20px;
+    }
+
+    .order {
+        font-size: 18px;
+    }
+
+    .imgicon {
+        height: 50px;
+    }
+
+    .startt {
+        flex-direction: column; 
+        width: 100%;
+        padding: 10px;
+    }
+
+    .indiaup {
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+        font-size: 16px;
+        height: auto;
+    }
+
+    .insi {
+        width: 90%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .insi a {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .doee {
+        font-size: 18px;
+        margin-top: 40px;
+    }
+
+    .homeimg {
+        height: 40vh; 
+    }
+
+    .samesi {
+        height: 100%;
+        object-fit: cover;
+    }
+}
